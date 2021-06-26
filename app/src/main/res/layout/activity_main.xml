@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C6E2FF"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textColor="#cd201f"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Quản Lí Sinh Viên"
+        />
+    <Button
+
+        android:background="@drawable/background_button"
+        android:layout_marginTop="90dp"
+        android:id="@+id/btn_Subject"
+        android:layout_gravity="center"
+        android:textColor="#BBFFFF"
+        android:text="Subject"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_button"
+        android:id="@+id/btn_Author"
+        android:layout_gravity="center"
+        android:textColor="#BBFFFF"
+        android:text="Author"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_button"
+        android:id="@+id/btn_Exit"
+        android:layout_gravity="center"
+        android:textColor="#BBFFFF"
+        android:text="Exit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>
